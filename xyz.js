@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     clic.addEventListener("click", () => {
         gif.src = "resources/im-lazy-cute.gif"; // second gif
-        text.innerHTML = "hi billy (with one l)";
+        text.innerHTML = "hi billy (with one l) 😘 ";
         clic.style.display = "none";             // hide first button
         hi.style.display = "inline-block";       // show second
     });
 
     hi.addEventListener("click", () => {
         gif.src = "resources/peach-goma.gif";    // final gif
-        text.innerHTML = "happy birthday nigga";
+  text.innerHTML = "happy birthdayy~";
         hi.style.display = "none";               // hide second
     });
 });
